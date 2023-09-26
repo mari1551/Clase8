@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('../images/820643.jpg'); 
+    background-size: cover; 
+    background-attachment: fixed;  
+}
+#encabezado{
+    background-color: black; 
+    padding-bottom: 10px;  
+   
+}
+#identificacion{
+    display: flex;    
+}
+
+#identificacion h1{
+    color:white; 
+    text-align: center;  
+    align-self: center; 
+    font-size: 40px;
+    position: relative;
+    left: 25%;
+}
+#menu{
+    display:flex;
+    justify-content: space-around;    
+}
+#menu a{
+    color:white;
+}
+/* -----------------------------Main--------------------- */
+
+#principal{   
+    margin: 0 auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 30px;
+    color:white;    
+}
+p{
+    line-height: 3em;
+    font-size: 20px;
+}
+.claseDiv{
+    margin-bottom: 30px;
+}
+
+#contenido #listado{
+    /* width: 40%; */
+    margin-left: auto;
+    margin-right: auto; 
+}
+.pelis{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+
+#videos{
+    text-align: center;
+}
+#formulario{
+    margin-top: 25px;
+    margin-right: 25px;
+    line-height: 3em; 
+    margin-left: auto;
+    margin-right: auto;    
+}
+form{
+    width:max-content;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #F4F3EE;
+    border-radius: 25px;
+    padding: 10px;
+    line-height: 30px;        
+}
+label{
+    color:white;
+}
+
+
